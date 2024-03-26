@@ -1,0 +1,15 @@
+   0 cd ..
+   1 touch hw.txt
+   2 cat | wc -c
+   3 cat / | wc -c
+   4 df -h
+   5 df
+   6 cat / | df >> hw.txt
+   7 df >> hw.txt
+   8 history | tail -5 >> hw.txt
+   9 car /proc/cpuinfo | grep vendor >> hw.txt
+  10 cat /proc/cpuinfo | grep vendor >> hw.txt
+  11 vi hw.txt
+  12 ps -ef | grep root | wc -l >> hw.txt
+  13 vi hw.txt
+  14 history > history.txt
